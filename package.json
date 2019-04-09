@@ -1,0 +1,10 @@
+{
+  "name": "random_netlify",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "lorem-ipsum": "^2.0.1"
+  },
+  "scripts": {
+    "build": "node index.js"
+  }
+}
