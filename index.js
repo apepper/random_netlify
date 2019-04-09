@@ -37,7 +37,7 @@ fse.removeSync(TARGET_DIR);
 console.log(`Creating ${TARGET_DIR}/`);
 fse.mkdirpSync(TARGET_DIR);
 
-const nrOfItems = 10;
+const nrOfItems = 100;
 
 Array.from({ length: nrOfItems }).forEach((x, i) => {
   storeResult(`${i}.html`, randomHtml());
